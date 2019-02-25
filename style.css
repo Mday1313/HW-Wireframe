@@ -6,78 +6,72 @@ body {
     font-size: 18px;
     text-align: center;
     margin: auto;
+    
 }
 
 header {
     background-color: #ebebeb;
-    height: 75px;
+    padding: 30px;
     margin-top: 10px;
-    display: block;
     
+   
 
     
 }
 
 nav {
     background-color: #ebebeb;
-    height: 75px;
+    padding: 30px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 section {
     background-color: #ebebeb;
-    width: 495px;
+    overflow: visible;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display block;
     float: left;
+    margin-bottom: 30px;
     
-    margin-top: 10px;
-    height: 300px;
-}
-
-aside {
-    background-color: #ebebeb;
-    float: right;
-    width: 425px;
-    margin-top: 10px;
- 
-    height: 300px;
-}
-
-footer {
-    background-color: #ebebeb;
-    width: 960px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 75px;
-    
-
 }
 
 article {
     color: #ebebeb;
     background-color: #777;
     margin: 15px;
-    overflow: visible;
-    height: 225px;
-    padding-top: 30px;
-    
-
+    padding: 30px 15px 30px 15px;
+    width: 495px;
 
 }
-
 h1 {
     color: #777;
     background-color: #ebebeb;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 15px;
+    padding: 20px;
+    
 }
 
 p {
     color: #777;
     background-color: #ebebeb;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 15px;
+    padding: 20px;
 
+}
+
+aside {
+    background-color: #ebebeb;
+    float: right;
+    width: 325px;
+    padding: 30px;
+    height: 300px;
+
+}
+
+footer {
+    clear: both;
+    background-color: #ebebeb;
+    padding: 30px;
+    
 }
